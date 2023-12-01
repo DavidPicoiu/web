@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <title>Minisumo</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .footer p {
+        margin: 0;
+        font-family: Arial, sans-serif; 
+    }
+  </style>
+</head>
+<body>
+  <div class="top-box">
+    <div class="web-simbol">
+      <img src="ms-high-resolution-logo-transparent.png" alt="Símbol web">
+    </div>
+    <h2 class="small-title">Minisumo</h2>
+    <div class="dropdown-menu">
+      <button onclick="toggleMenu()" class="dropbtn">Menú</button>
+      <div class="dropdown-content">
+        <a href="#">Torneig</a>
+        <a href="#">Compta</a>
+        <a href="#">Configuració</a>
+        <a href="#">Botiga</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <div class="explanation">
+      <h3>Què és el Minisumo?</h3>
+      <p>
+        El minisumo és una forma emocionant de competir amb petits robots dissenyats per empenyer o expulsar l'adversari fora del ring. Aquesta disciplina implica estratègia, creativitat i habilitats tècniques per a construir els millors robots. Els competidors han de dissenyar i programar els seus robots per aconseguir la millor estratègia i guanyar la partida.
+      </p>
+      <p>
+        Aquesta competició ofereix una gran oportunitat per als entusiastes de la robòtica d'experimentar i posar en pràctica els seus coneixements. Els robots han de ser petits, ràpids i potents per aconseguir expulsar l'oponent del ring.
+      </p>
+      <p>
+        Els tornejos de minisumo són molt populars entre els aficionats a la tecnologia i la robòtica, i ofereixen una experiència única per a tots els participants.
+      </p>
+      <p>
+        L'estratègia és clau en aquesta competició. Els participants han de dissenyar els seus robots per detectar els moviments de l'adversari i reaccionar ràpidament per aconseguir la victòria.
+      </p>
+      <p>
+        Els competidors han de ser creatius en el disseny dels seus robots, incorporant sensors i algoritmes per a una millor execució durant la competició.
+      </p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2023  Web creada especialment per en Marc Roca</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      var menu = document.querySelector('.dropdown-content');
+      menu.classList.toggle('show');
+    }
+  </script>
+
+</body>
+</html>
